@@ -9,8 +9,11 @@
 </a>
 <div class="right menu">
     <div class="item segment">
-        <div class="ui teal basic button">Log out</div>
+        <% if logged_in? %>
+            <div class="ui teal basic button"><%= link_to  "Log out", logout_path, method: :delete %></div>
+        <% else %>
         <div class="ui primary basic button"><%= link_to  "Log in", login_path %></div>
         <div class="ui orange basic button">Sign Up</div>
+        <% end %>
     </div>
 </div>
