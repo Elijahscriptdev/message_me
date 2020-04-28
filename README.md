@@ -1,25 +1,74 @@
-# README
+# Project: message_me app
+This is a web app for chatting(sending messages)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby v2.7.0
+- Ruby on Rails v5.2.1
 
-* Ruby version
+## Technologies
+- HTML
+- CSS
+- Ruby
+- Ruby On Rails
+- SASS
+- Semantic UI
 
-* System dependencies
+## Prerequisites
 
-* Configuration
+- Ruby: 2.7.0
+- Rails: 5.2.1
 
-* Database creation
+## Functionalities 
+- Signup
+- Login
+- Send a chat message
 
-* Database initialization
+## Setup
 
-* How to run the test suite
+```sh
+$ git clone https://github.com/Elijahscriptdev/message_me.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Navigate to the extracted folder
+```sh
+$ cd message_me
+```
 
-* Deployment instructions
+Install the gems
+```sh
+$ bundle install
+```
 
-* ...
-# message_me
+Run the migrations
+```sh
+$ rails db:migrate
+```
+### Usage
+
+Start server with:
+
+```sh
+    rails server
+```
+
+Open `http://localhost:3000/` in your browser.
+
+## Author
+
+👤 **Elijah Obominuru**
+
+[Github](https://github.com/Elijahscriptdev) | [Twitter](https://twitter.com/ElijahObominuru) | [LinkedIn](https://www.linkedin.com/in/elijah-obominuru-0b730b143/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.
